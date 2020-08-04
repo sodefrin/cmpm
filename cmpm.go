@@ -1,4 +1,4 @@
-package cmpmatcher
+package cmpm
 
 import (
 	"github.com/golang/mock/gomock"
@@ -20,7 +20,7 @@ func (m *matcher) String() string {
 	return m.diff
 }
 
-func CMP(y interface{}, opts ...cmp.Option) gomock.Matcher {
+func Cmp(y interface{}, opts ...cmp.Option) gomock.Matcher {
 	return &matcher{
 		y:    y,
 		opts: opts,
