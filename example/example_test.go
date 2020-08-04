@@ -18,7 +18,7 @@ func TestExmple(t *testing.T) {
 	//
 	// --- FAIL: TestExmple (0.00s)
 	// cmpmatcher_test.go:17: Unexpected call to *mock_example.MockExample.Go([{aaaa bbb}]) at cmpmatcher/example/mock/mock.go:39 because:
-	// expected call at /Users/ktazoe/git/cmpmatcher/example/cmpmatcher_test.go:16 doesn't match the argument at index 0.
+	// expected call at cmpmatcher/example/cmpmatcher_test.go:16 doesn't match the argument at index 0.
 	//   Got: {aaaa bbb}
 	//   Want:   example.AAA{
 	//    - 	A: "want a",
